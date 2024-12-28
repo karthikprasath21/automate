@@ -1,0 +1,10 @@
+name: First-Workflow
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print echo
+        run: echo ls
+      - name: ifconfig
+        run: ifconfig
